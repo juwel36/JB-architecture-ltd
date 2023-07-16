@@ -1,0 +1,327 @@
+*{
+padding: 0;margin: 0;
+
+
+}
+header{
+ background: rgba(255, 144, 14, 0.10);
+padding: 50px 150px;
+
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+nav ul{
+list-style: none;
+display: flex;
+
+}
+nav li{
+margin-right: 30px;
+font-size: 1rem;
+}
+
+nav a{
+text-decoration: none;
+color: var(--dark-02, #424242);
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+nav h1{
+  color: var(--dark-01, #131313);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+.banner{
+
+max-width: 900px;
+
+text-align: center;
+margin: 0 auto;
+}
+
+.banner-tag h1{
+  color: var(--dark-01, #131313);
+  
+  font-family: Work Sans;
+  font-size: 50px;
+  
+  margin-top: 110px;
+
+}
+.banner-tag p{
+  color: var(--dark-03, #727272);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-top: 24px;
+}
+.btn{
+  color: #FFF;
+  border-radius: 8px;
+background: #FF900E;
+  font-size: 15px;
+  padding: 12px 18px;
+  border: none;
+  margin-top: 24px;
+
+}
+.banner img{
+width: 100%;
+margin-top: 26px;
+}
+
+
+
+
+
+
+
+main{
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+/* teams styles */
+.teams-container {
+  display: flex;
+  align-items: center;   
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.teams-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.teams-title {
+  font-size: 2.8rem;
+}
+
+.teams-title .quick-list {
+  font-weight: 500;
+}
+
+.teams-title .text-features {
+  color: #FF900E;
+  font-weight: 700;
+}
+.teams-img-container img{
+  
+    height: 20rem;
+    width: 20rem;
+
+
+}
+.facts{
+margin-top: 120px;
+
+
+}
+.facts h1{
+  color: var(--dark-01, #131313);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.facts p{
+  color: var(--dark-03, #727272);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+
+}
+.facts-item{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+margin-top: 70px;
+
+}
+.award{
+  border: 2px solid orange;padding: 40px 40px;
+  border-radius: 5px;
+}
+.projects{
+  border: 2px solid orange;padding: 40px 35px;
+  border-radius: 5px;
+}
+.clint{
+  border: 2px solid orange;padding: 40px 44px;
+  border-radius: 5px;
+}
+.email{
+  border: 2px solid orange;padding: 40px 31px;
+  border-radius: 5px;
+}
+.sponser-tag{
+text-align: center;
+padding-top: 100px;
+
+}
+.sp1{
+  color: var(--dark-01, #131313);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+
+}
+.spp{
+  color: var(--dark-03, #727272);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-top: 20px;
+
+}
+.sponser-name{
+  display: flex;
+  justify-content: space-between;
+padding-top: 70px;
+margin-bottom: 100px;
+
+}
+.simg{
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+
+}
+.footer{
+  width: 80%;
+height: 100px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF4E7;
+text-align: center;
+display: flex;
+  justify-content: center;
+  align-items:center;
+
+margin: 0 auto;
+}
+.footerp{
+  
+}
+
+
+
+
+
+
+
+
+
+/* mobile responsibe secton */
+@media screen and (max-width:576px) {
+  header{
+    padding: 10px 10px;
+    
+    }
+    nav{
+position: fixed;
+gap: 80px;
+
+    }
+    nav a{
+      font-size: 13px;
+      margin-left: 0px;
+    }
+    nav li{
+      margin-right: 15px;
+    
+    }
+    nav h1{
+    font-size: 30px;
+    
+    }
+    .banner-tag h1{
+      color: var(--dark-01, #131313);
+      font-family: Work Sans;
+      font-size: 40px;
+      margin-top: 50px;
+    
+    }
+    .banner-tag p{
+      color: var(--dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 14px;
+    }
+    .btn{
+      color: #FFF;
+      border-radius: 8px;
+    background: #FF900E;
+      font-size: 12px;
+      padding: 10px 15px;
+      border: none;
+      margin-top: 14px;
+    }
+    .teams-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .teams-img-container{
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+    }
+.facts-item{
+
+flex-direction: column;
+gap: 20px;
+
+}
+.sponser-name{
+flex-direction: column;
+padding-left: 130px;
+gap: 50px;
+
+}
+
+
+
+
+}
+
+
+
+
