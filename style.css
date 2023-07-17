@@ -226,13 +226,34 @@ display: flex;
 
 margin: 0 auto;
 }
-.footerp{
+.juwel{
+width: 100%;
+border-radius: 20px;
+box-shadow: 1px 1px 15px black;
+
+}
+.hotboy{
+background: #bfff0ec9;
+padding: 20px;
+width: 135px;
+border-radius: 20px;
+border-left: 8px solid red;
+position: relative;
+top: -40px;
+left: -40px;
+}
+h3{
+
+  text-align: center;
+  margin-bottom: -25px;
+  font-size: 30px;
   
 }
-
-
-
-
+.dot{
+text-align: center;
+margin-bottom: 50px;
+font-size: 40px;color: #FF900E;
+}
 
 
 
