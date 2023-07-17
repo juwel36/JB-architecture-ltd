@@ -252,7 +252,7 @@ margin: 0 auto;
     
     }
     nav{
-position: fixed;
+
 gap: 80px;
 
     }
@@ -312,7 +312,9 @@ gap: 20px;
 }
 .sponser-name{
 flex-direction: column;
-padding-left: 130px;
+display: flex;
+justify-content: center;
+align-items: center;
 gap: 50px;
 
 }
