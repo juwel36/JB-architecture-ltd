@@ -51,7 +51,7 @@ text-align: center;
 margin: 0 auto;
 }
 
-.banner-tag h1{
+.brand{
   color: var(--dark-01, #131313);
   
   font-family: Work Sans;
@@ -60,7 +60,7 @@ margin: 0 auto;
   margin-top: 110px;
 
 }
-.banner-tag p{
+.brand-description{
   color: var(--dark-03, #727272);
 text-align: center;
 font-family: Work Sans;
@@ -80,7 +80,7 @@ background: #FF900E;
   margin-top: 24px;
 
 }
-.banner img{
+.playboy{
 width: 100%;
 margin-top: 26px;
 }
@@ -165,22 +165,15 @@ text-align: center;
 margin-top: 70px;
 
 }
-.award{
-  border: 2px solid orange;padding: 40px 40px;
-  border-radius: 5px;
+
+
+
+.factss{
+padding: 50px;
+border: 2px solid orange;
+border-radius: 5px;
 }
-.projects{
-  border: 2px solid orange;padding: 40px 35px;
-  border-radius: 5px;
-}
-.clint{
-  border: 2px solid orange;padding: 40px 44px;
-  border-radius: 5px;
-}
-.email{
-  border: 2px solid orange;padding: 40px 31px;
-  border-radius: 5px;
-}
+
 .sponser-tag{
 text-align: center;
 padding-top: 100px;
@@ -246,83 +239,134 @@ margin: 0 auto;
 
 
 /* mobile responsibe secton */
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
   header{
-    padding: 10px 10px;
-    
-    }
-    nav{
+    background: rgba(255, 144, 14, 0.10);
+   padding: 0px;
+ 
+   }
 
-gap: 80px;
+nav{
+flex-direction: column;
 
+}
+nav li{
+  margin-right: 20px;
+  font-size: 1rem;
+  }
+  
+  nav a{
+  text-decoration: none;
+  color: var(--dark-02, #424242);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  }
+  nav h1{
+    color: var(--dark-01, #131313);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 10px;
+    padding-top: 40px;
+  }
+  .playboy{
+    width: 90%;
+    margin-top: 26px;
     }
-    nav a{
-      font-size: 13px;
-      margin-left: 0px;
-    }
-    nav li{
-      margin-right: 15px;
+
+  .brand{
+    color: var(--dark-01, #131313);
     
-    }
-    nav h1{
+    font-family: Work Sans;
     font-size: 30px;
     
-    }
-    .banner-tag h1{
-      color: var(--dark-01, #131313);
-      font-family: Work Sans;
-      font-size: 40px;
-      margin-top: 50px;
-    
-    }
-    .banner-tag p{
-      color: var(--dark-03, #727272);
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    margin-top: 14px;
-    }
-    .btn{
-      color: #FFF;
-      border-radius: 8px;
-    background: #FF900E;
-      font-size: 12px;
-      padding: 10px 15px;
-      border: none;
-      margin-top: 14px;
-    }
-    .teams-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .teams-img-container{
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-    }
-.facts-item{
-
+    margin-top: 70px;
+   
+  
+  }
+  .brand-description{
+    color: var(--dark-03, #727272);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 20px;
+  }
+  .btn{
+    color: #FFF;
+    border-radius: 8px;
+  background: #FF900E;
+    font-size: 12px;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 20px;
+  }
+  .teams-container{
 flex-direction: column;
-gap: 20px;
+
+  }
+  .teams-img-container{
+    display: flex;
+flex-direction: column;
+margin-top: 80px;
+
+  }
+  .teams-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+  }
+  .teams-title {
+    font-size: 2rem;
+  }
+  .text-light-grayy{
+font-size: 10px;
+font-weight: normal;
+padding-top: 10px;
+  }
+.facts-item{
+  flex-direction: column;
+  gap: 20px;
+}
+.sp1{
+  color: var(--dark-01, #131313);
+  font-family: Work Sans;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+
+}
+.spp{
+  color: var(--dark-03, #727272);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
 
 }
 .sponser-name{
 flex-direction: column;
-display: flex;
-justify-content: center;
+gap: 25px;
 align-items: center;
-gap: 50px;
+justify-content: center;opacity: 0.7;
+}
+
+
 
 }
 
 
 
-
-}
 
 
 
